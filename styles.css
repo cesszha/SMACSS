@@ -1,0 +1,74 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.l-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.l-nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.l-nav li {
+    display: inline; 
+    margin-right: 15px; 
+}
+
+.l-main {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}
+
+.l-footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+
+.m-card {
+    background-color: rgb(129, 212, 235); 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 15px; 
+    margin: 10px; 
+    width: 400px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align:justify;
+    background-image: url(tuturu.jpg);
+    background-size: contain;
+}
+.m-button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c6c6c;
+    color: white;
+    text-decoration: none;
+}
+
+
+.m-button.is-active {
+    background-color: #6c6c6c; 
+}
+
+
+.m-link {
+    color: #6c6c6c; 
+}
+
+.m-link:hover {
+    text-decoration: underline; 
+}
